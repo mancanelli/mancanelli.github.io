@@ -112,7 +112,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "My awesome biography constrained to a sentence or two goes here."
   location         : "Rome, Italy"
-  email            : "matteomancanelli@gmail.com"
+  email            : 
   links:
     - label: "Email"
       icon: "far fa-envelope"
@@ -121,7 +121,7 @@ author:
       icon: "fab fa-twitter"
       url: "https://twitter.com/m_mancanelli"
     - label: "Facebook"
-      icon: "fab fafacebook"
+      icon: "fab fa-facebook"
       url: "https://www.facebook.com/matteo.mancanelli/"
     - label: "Github"
       icon: "fab fa-github"
