@@ -19,13 +19,15 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
+    /*
     &:hover {
       opacity: 1;
     }
+    */
 
     &.sticky {
       overflow-y: auto;
@@ -311,6 +313,7 @@
   a {
     display: block;
     margin-bottom: 5px;
+    margin-left: 1px;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;

@@ -50,7 +50,6 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  // z-index: 20;
 }
 
 .site-subtitle {
@@ -85,6 +84,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-weight: bold;
 
   &--lg {
     padding-right: 2em;
