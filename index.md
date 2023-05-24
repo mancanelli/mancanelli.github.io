@@ -2,8 +2,7 @@
 layout: single
 ---
 
-## (website under construction)
-{: .under_construction }
-
 # Biography
 
+## (website under construction)
+{: .under_construction }
