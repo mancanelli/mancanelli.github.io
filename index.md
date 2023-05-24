@@ -1,8 +1,7 @@
 ---
 layout: single
+title: Biography
 ---
-
-# Biography
 
 ## (website under construction)
 {: .under_construction }
