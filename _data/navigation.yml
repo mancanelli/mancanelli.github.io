@@ -1,3 +1,5 @@
 main:
+  - title: "Bio"
+    url: /
   - title: "Blog"
     url: /blog
