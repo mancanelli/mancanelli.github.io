@@ -1,6 +1,11 @@
 ---
 layout: single
 title: Biography
+toc: true
+toc_sticky: true
+redirect_from:
+  - /bio
+  - /biography
 ---
 
 # (website under construction)
@@ -20,4 +25,4 @@ I have just submitted my first paper to an IEEE conference on Machine Learning a
 
 I'm currently teaching as a tutor in two courses taught at Sapienza University: Introduzione agli Algoritmi (Introduction to Algorithms) and Fondamenti di Informatica II (Fundamentals of Computer Science II). 
 
-Previously, I worked as an assistant for the same university and as a private tutor for high school and university students.
+Previously, I worked as an assistant for the same university and as a private teacher for high school and university students.
