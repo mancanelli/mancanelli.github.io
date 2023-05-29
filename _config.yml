@@ -216,7 +216,6 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: Europe/Rome
@@ -294,7 +293,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: custom-single
       toc: true
       toc_sticky: true
       author_profile: true
@@ -303,9 +302,15 @@ defaults:
       comments: # true
       share: true
       related: true
+      lang: en
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: custom-single
       author_profile: true
+      lang: en
+
+
+lang: en
+languages: ["it", "en"]

@@ -1,5 +1,11 @@
 main:
-  - title: "Bio"
-    url: /
-  - title: "Blog"
-    url: /blog
+  en:
+    - title: "Bio"
+      url: /en/bio
+    - title: "Blog"
+      url: /en/blog
+  it:
+    - title: "Bio"
+      url: /it/bio
+    - title: "Blog"
+      url: /it/blog

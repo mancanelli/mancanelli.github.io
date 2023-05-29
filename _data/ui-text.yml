@@ -23,6 +23,7 @@ en: &DEFAULT_EN
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
   date_label                 : "Updated:"
+  date_format                : "%B %-d, %Y"
   comments_label             : "Leave a comment"
   comments_title             : "Comments"
   more_label                 : "Learn more"
@@ -329,7 +330,7 @@ it: &DEFAULT_IT
   skip_footer                :
   page                       : "Pagina"
   pagination_previous        : "Precedente"
-  pagination_next            : "Prossima"
+  pagination_next            : "Successivo"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 :
@@ -337,12 +338,13 @@ it: &DEFAULT_IT
   toc_label                  : "Indice della pagina"
   ext_link_label             : "Link"
   less_than                  : "meno di"
-  minute_read                : "minuto/i di lettura"
+  minute_read                : "minuti di lettura"
   share_on_label             : "Condividi"
   meta_label                 :
   tags_label                 : "Tags:"
   categories_label           : "Categorie:"
   date_label                 : "Aggiornato:"
+  date_format                : "%d/%m/%Y"
   comments_label             : "Scrivi un commento"
   comments_title             :
   more_label                 : "Scopri di più"
