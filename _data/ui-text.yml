@@ -29,6 +29,7 @@ en: &DEFAULT_EN
   more_label                 : "Learn more"
   related_label              : "You may also enjoy"
   follow_label               : "Follow:"
+  lang_label                 : "Switch language:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
   website_label              : "Website"
@@ -59,6 +60,9 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+
+english: "en"
+inglese: "en"
 
 # Spanish
 # -------
@@ -350,6 +354,7 @@ it: &DEFAULT_IT
   more_label                 : "Scopri di più"
   related_label              : "Potrebbe Piacerti Anche"
   follow_label               : "Segui:"
+  lang_label                 : "Cambia lingua:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
   website_label              : "Website"
@@ -374,6 +379,9 @@ it: &DEFAULT_IT
   back_to_top                : "Vai su"
 it-IT:
   <<: *DEFAULT_IT
+
+italian: "it"
+italiano: "it"
 
 # Chinese  (zh-CN Chinese - China)
 # --------------------------------

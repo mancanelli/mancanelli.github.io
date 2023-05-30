@@ -1,3 +1,32 @@
+<div class="page__footer-language">
+  <ul class="lang-icons">
+    {% if site.data.ui-text[site.locale].lang_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].lang_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.languages %}
+      {% assign lang = site.footer.languages | where_exp: "item", "item.tag == page.lang" %}
+      
+      {% for name in lang[0].names %}
+        {% assign url_list = page.url | split: "/" %}
+        {% assign lang_tag = site.data.ui-text[name] %}
+
+        {% if lang_tag == page.lang %}
+          {% assign translation = page.url %}
+        {% elsif page.translation[lang_tag] %}
+          {% assign translation = page.url | replace_first: page.lang, lang_tag | replace_first: url_list[-1], page.translation[lang_tag] %}
+        {% else %}
+          {% assign translation = page.url | replace_first: page.lang, lang_tag %}
+        {% endif %}
+        
+        <li class="lang-item">
+          <a href="{{ translation | prepend: site.url }}">{{ name }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>
+
 <div class="page__footer-follow">
     <ul class="social-icons">
       {% if site.data.ui-text[site.locale].follow_label %}
@@ -7,13 +36,18 @@
       {% if site.footer.links %}
         {% for link in site.footer.links %}
           {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+            <li class="social-item">
+              <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+              <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+                {{ link.label }}
+              </a>
+            </li>
           {% endif %}
         {% endfor %}
       {% endif %}
   
       {% unless site.atom_feed.hide %}
-        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+        <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
       {% endunless %}
     </ul>
 </div>

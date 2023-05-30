@@ -6,7 +6,7 @@
 {% endcase %}
 
 {% if site.category_archive.path %}
-  {% assign categories_sorted = page.categories | sort_natural %}
+  {% assign categories_sorted = page.categories | where_exp: "item", "item != 'blog' and item != page.lang" | sort_natural %}
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong>

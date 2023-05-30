@@ -23,12 +23,13 @@
           <span class="visually-hidden">{{ site.data.ui-text[page.lang].search_label | default: "Toggle search" }}</span>
           <i class="fas fa-search"></i>
         </button>
+        {% endif %}
         {% comment %}
         <div class="language__toggle">
+          <span class="visually-hidden">{{ "Language menu" }}</span>
           <i class="fas fa-language fa-lg"></i>
         </div>
         {% endcomment %}
-        {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[page.lang].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
