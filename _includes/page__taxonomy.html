@@ -2,7 +2,8 @@
   {% include tag-list.html %}
 {% endif %}
 
-{% assign categories = page.categories | where_exp: "item", "item != 'blog' and item != page.lang" %}
+{% assign categories = page.categories | where_exp: "item", "item != page.lang" %}
+{% assign categories = categories | where_exp: "item", "item != 'blog'" %}
 
 {% if site.category_archive.type and categories.size > 0 %}
   {% include category-list.html %}
