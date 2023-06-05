@@ -1,13 +1,13 @@
 <div class="page__footer-language">
   <ul class="lang-icons">
-    {% if site.data.ui-text[site.locale].lang_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].lang_label }}</strong></li>
+    {% if site.data.ui-text[page.lang].lang_label %}
+      <li><strong>{{ site.data.ui-text[page.lang].lang_label }}</strong></li>
     {% endif %}
 
     {% if site.footer.languages %}
-      {% assign lang = site.footer.languages | where_exp: "item", "item.tag == page.lang" %}
+      {% assign languages = site.footer.languages | where_exp: "item", "item.tag == page.lang" %}
       
-      {% for name in lang[0].names %}
+      {% for name in languages[0].names %}
         {% assign url_list = page.url | split: "/" %}
         {% assign lang_tag = site.data.ui-text[name] %}
 
@@ -20,17 +20,18 @@
         {% endif %}
         
         <li class="lang-item">
-          <a href="{{ translation | prepend: site.url }}">{{ name }}</a>
+          <a href="{{ translation | relative_url }}">{{ name }}</a>
         </li>
       {% endfor %}
     {% endif %}
   </ul>
 </div>
 
+{% comment %}
 <div class="page__footer-follow">
     <ul class="social-icons">
-      {% if site.data.ui-text[site.locale].follow_label %}
-        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+      {% if site.data.ui-text[page.lang].follow_label %}
+        <li><strong>{{ site.data.ui-text[page.lang].follow_label }}</strong></li>
       {% endif %}
   
       {% if site.footer.links %}
@@ -51,5 +52,6 @@
       {% endunless %}
     </ul>
 </div>
+{% endcomment %}
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
