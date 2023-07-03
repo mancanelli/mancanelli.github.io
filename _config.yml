@@ -133,6 +133,18 @@ author:
       icon: "fas fa-fw fa-rss-square"
       url: "https://mancanelli.github.io/feed.xml"
 
+
+#    - label: "Google Scholar"
+#      icon: "fas fa-fw fa-rss-square"
+#      url: "https://scholar.google.com/"
+#    - label: "ResearchGate"
+#      icon: "fas fa-fw fa-rss-square"
+#      url: "https://www.researchgate.net/profile/Matteo-Mancanelli"
+#    - label: "ORCID"
+#      icon: "fas fa-fw fa-rss-square"
+#      url: "https://orcid.org/0009-0004-9547-7115"
+    
+
 # Site Footer
 footer:
   links:
