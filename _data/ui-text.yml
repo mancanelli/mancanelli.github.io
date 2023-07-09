@@ -61,9 +61,6 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-english: "en"
-inglese: "en"
-
 # Spanish
 # -------
 es: &DEFAULT_ES
@@ -379,9 +376,6 @@ it: &DEFAULT_IT
   back_to_top                : "Vai su"
 it-IT:
   <<: *DEFAULT_IT
-
-italian: "it"
-italiano: "it"
 
 # Chinese  (zh-CN Chinese - China)
 # --------------------------------

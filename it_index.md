@@ -3,7 +3,8 @@ layout: custom-single
 title: Home Page
 permalink: /it
 lang: it
-translation: /en
+translation: 
+  - en: /
 ---
 
 # (sito in costruzione)

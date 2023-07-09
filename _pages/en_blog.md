@@ -2,6 +2,8 @@
 layout: custom-posts
 permalink: /en/blog
 lang: en
-translation: /it/blog
+canonical: true
+translation: 
+  - it: blog
 ---
 

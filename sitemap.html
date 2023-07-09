@@ -1,0 +1,20 @@
+---
+layout:
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {% assign pages = site.pages | where_exp: "item", "item.canonical == true" %} {% for page in pages %}
+  <url>
+    <loc>{{ site.url | append: page.url }}</loc> {% for translations in page.translation %} {% for pair in translations %} {% if page.url == '/' %} {% assign link = '/' | append: pair[0] %} {% else %} {% assign url_list = page.url | split: "/" %} {% assign link = page.url | replace_first: page.lang, pair[0] | replace_first: url_list[-1], pair[1] %} {% endif %}
+    <xhtml:link rel="alternate" hreflang="{{ pair[0] }}" href="{{ site.url | append: link }}" /> {% endfor %} {% endfor %}
+  </url>
+  {% endfor %}
+  {% assign posts = site.posts | where_exp: "item", "item.canonical == true" %} {% for post in posts %}
+  <url>
+    <loc>{{ site.url | append: post.url }}</loc> {% for translations in post.translation %} {% for pair in translations %} {% assign url_list = post.url | split: "/" %} {% assign link = post.url | replace_first: post.lang, pair[0] | replace_first: url_list[-1], pair[1] %}
+    <xhtml:link rel="alternate" hreflang="{{ pair[0] }}" href="{{ site.url | append: link }}" /> {% endfor %} {% endfor %}
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+  {% endfor %}
+</urlset>

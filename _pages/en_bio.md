@@ -7,7 +7,9 @@ permalink: /en/bio
 redirect_from:
   - /en/biography
 lang: en
-translation: /it/bio
+canonical: true
+translation: 
+  - it: bio
 ---
 
 # Academic Path

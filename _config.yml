@@ -163,11 +163,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/matteo-mancanelli/"
-  languages:
-    - names: ["english", "italian"]
-      tag: "en"
-    - names: ["inglese", "italiano"]
-      tag: "it"
 
 
 # Reading Files
@@ -243,7 +238,7 @@ timezone: Europe/Rome
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
+#  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
@@ -254,7 +249,7 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
+#  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache

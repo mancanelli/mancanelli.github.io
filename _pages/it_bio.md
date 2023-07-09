@@ -8,7 +8,8 @@ redirect_from:
   - /it/biography
   - /it/biografia
 lang: it
-translation: /en/bio
+translation: 
+  - en: bio
 ---
 
 # Percorso Accademico

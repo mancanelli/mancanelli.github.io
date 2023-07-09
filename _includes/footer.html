@@ -4,26 +4,19 @@
       <li><strong>{{ site.data.ui-text[page.lang].lang_label }}</strong></li>
     {% endif %}
 
-    {% if site.footer.languages %}
-      {% assign languages = site.footer.languages | where_exp: "item", "item.tag == page.lang" %}
-      
-      {% for name in languages[0].names %}
-        {% assign url_list = page.url | split: "/" %}
-        {% assign lang_tag = site.data.ui-text[name] %}
-
-        {% if lang_tag == page.lang %}
-          {% assign translation = page.url %}
-        {% elsif page.translation[lang_tag] %}
-          {% assign translation = page.url | replace_first: page.lang, lang_tag | replace_first: url_list[-1], page.translation[lang_tag] %}
-        {% else %}
-          {% assign translation = page.url | replace_first: page.lang, lang_tag %}
+    {% for translations in page.translation %}
+      {% for pair in translations %}
+        {% if page.url == '/' %}
+          {% assign link = '/' | append: pair[0] %} 
+        {% else %} 
+          {% assign url_list = page.url | split: "/" %}
+          {% assign link = page.url | replace_first: page.lang, pair[0] | replace_first: url_list[-1], pair[1] %} 
         {% endif %}
-        
         <li class="lang-item">
-          <a href="{{ translation | relative_url }}">{{ name }}</a>
+          <a href="{{ link | relative_url }}">{{ pair[0] | upcase }}</a>
         </li>
       {% endfor %}
-    {% endif %}
+    {% endfor %}
   </ul>
 </div>
 
