@@ -1,0 +1,38 @@
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  en                         : "English"
+  it                         : "Italian"
+  inginfaut                  : "Computer and Control Engineering"
+  diag_name                  : "Department of Computer, Control and Management Engineering"
+  inf                        : "Computer Science"
+  di_name                    : "Department of Computer Science"
+  asd_fdi2                   : "Algorithms and Data Structure (Fundamentals of Computer Science II)"
+  introalg                   : "Introduction to Algorithms"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Italian
+# -----------------
+it: &DEFAULT_IT
+  en                         : "Inglese"
+  it                         : "Italiano"
+  inginfaut                  : "Ingegneria Informatica e Automatica"
+  diag_name                  : "Dipartimento di Ingegneria Informatica, Automatica e Gestionale"
+  inf                        : "Informatica"
+  di_name                    : "Dipartimento di Informatica"
+  asd_fdi2                   : "Algoritmi e Strutture Dati (Fondamenti di Informatica II)"
+  introalg                   : "Introduzione agli Algoritmi"
+it-IT:
+  <<: *DEFAULT_IT
+
+# Acronym
+# -----------------
+diag: "DIAG"
+di: "DI"

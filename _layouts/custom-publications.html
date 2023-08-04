@@ -1,0 +1,85 @@
+---
+layout: custom-single
+classes: wide
+---
+
+{{ content }}
+
+{% assign preprints = site.publications | where_exp:"item", "item.type == 'preprint'" %}
+{% assign journal_papers = site.publications | where_exp:"item", "item.type == 'journal'" %}
+{% assign conference_papers = site.publications | where_exp:"item", "item.type == 'conference'" %}
+
+{% if preprints.size > 0 %}
+<h2>Preprints</h2>
+{% for pub in preprints %}
+<div class="pubitem">
+  <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="publinks">
+    {% if pub.doi %}
+      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
+    {% endif %}
+    {% if pub.arXiv %}
+      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% endif %}
+    {% if pub.paper %}
+      [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
+    {% endif %}
+    {% if pub.code %}
+      [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">code</a>]
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if journal_papers.size > 0 %}
+<h2>Journal Papers</h2>
+{% for pub in journal_papers %}
+<div class="pubitem">
+  <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="publinks">
+    {% if pub.doi %}
+      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
+    {% endif %}
+    {% if pub.arXiv %}
+      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% endif %}
+    {% if pub.paper %}
+      [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
+    {% endif %}
+    {% if pub.code %}
+      [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">code</a>]
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if conference_papers.size > 0 %}
+<h2>Conference Papers</h2>
+{% for pub in conference_papers %}
+<div class="pubitem">
+  <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="publinks">
+    {% if pub.doi %}
+      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
+    {% endif %}
+    {% if pub.arXiv %}
+      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% endif %}
+    {% if pub.paper %}
+      [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
+    {% endif %}
+    {% if pub.code %}
+      [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">code</a>]
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
+{% endif %}

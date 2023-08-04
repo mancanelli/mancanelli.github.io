@@ -2,10 +2,18 @@ main:
   en:
     - title: "Bio"
       url: /en/bio
-    - title: "Blog"
-      url: /en/blog
+    #- title: "Blog"
+    #  url: /en/blog
+    - title: "Publications"
+      url: /en/publications
+    - title: "Teaching"
+      url: /en/teaching
   it:
     - title: "Bio"
       url: /it/bio
-    - title: "Blog"
-      url: /it/blog
+    #- title: "Blog"
+    #  url: /it/blog
+    - title: "Pubblicazioni"
+      url: /en/pubblicazioni
+    - title: "Insegnamento"
+      url: /en/insegnamento

@@ -29,6 +29,8 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs             : false # true, false (default)
 words_per_minute         : 200
+
+# TODO
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -53,12 +55,15 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
+
+# TODO
 search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -72,6 +77,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification : google24834cf79a491fea.html
 bing_site_verification   :
@@ -79,7 +85,7 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
-# Social Sharing
+# Social Sharing TODO
 twitter:
   username               : m_mancanelli
 facebook:
@@ -89,6 +95,7 @@ facebook:
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
+
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
@@ -110,7 +117,7 @@ analytics:
 author:
   name             : "Matteo Mancanelli"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Master's student in Computer Science, AI and Logic at Sapienza University"
+  bio              : "Master's student in Computer Science, Logic and AI at Sapienza University"
   location         : "Rome, Italy"
   email            : 
   links:
@@ -133,7 +140,7 @@ author:
       icon: "fas fa-fw fa-rss-square"
       url: "https://mancanelli.github.io/feed.xml"
 
-
+# TODO
 #    - label: "Google Scholar"
 #      icon: "fas fa-fw fa-rss-square"
 #      url: "https://scholar.google.com/"
@@ -324,3 +331,11 @@ defaults:
       lang: en
 
 lang: en
+
+collections: 
+  publications:
+    output: false
+    permalink: /:collection/:title
+  teaching:
+    output: false
+    permalink: /:collection/:title
