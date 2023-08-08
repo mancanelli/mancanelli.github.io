@@ -519,8 +519,13 @@
     border-bottom: 1px solid $light-gray;
     height: 38px;
     margin-top: -3px;
+    padding: 0.9rem 0.75rem 0.1rem 0.75rem;
     //border-top-left-radius: $border-radius;
     //border-top-right-radius: $border-radius;
+
+    @include breakpoint($large) {
+      padding: 0.5rem 0.75rem 0.3rem 0.75rem;
+    }
   }
 
   // Scrollspy marks toc items as .active when they are in focus
