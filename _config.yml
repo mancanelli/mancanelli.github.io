@@ -118,7 +118,7 @@ author:
   name             : "Matteo Mancanelli"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Master's student in Computer Science, Logic and AI at Sapienza University"
-  location         : "Rome, Italy"
+  location         : 
   email            : 
   links:
     - label: "Email"
