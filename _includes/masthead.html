@@ -1,5 +1,18 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+{% if page.lang == 'en' %}
+  {% assign target_lang = 'it' %}
+{% else %}
+  {% assign target_lang = 'en' %}
+{% endif %}
+
+{% if page.url == '/' %}
+  {% assign link = '/' | append: target_lang %} 
+{% else %} 
+  {% assign url_list = page.url | split: "/" %}
+  {% assign link = page.url | replace_first: page.lang, target_lang | replace_first: url_list[-1], page.translation[0][target_lang] %}  
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -19,18 +32,27 @@
             </li>
           {%- endfor -%}
         </ul>
+        <a href="{{ link | relative_url }}" class="switch_link">
+          <div class="switch">
+            {% if page.lang == 'en' %}
+              <input id="language-toggle" class="check-toggle curr1" type="checkbox">
+              <label for="language-toggle"></label>
+              <span class="opt1">EN</span>
+              <span class="opt2">IT</span>
+            {% else %}
+              <input id="language-toggle" class="check-toggle curr2" type="checkbox">
+              <label for="language-toggle"></label>
+              <span class="opt1">EN</span>
+              <span class="opt2">IT</span>
+            {% endif %}
+          </div>
+        </a>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[page.lang].search_label | default: "Toggle search" }}</span>
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
-        {% comment %}
-        <div class="language__toggle">
-          <span class="visually-hidden">{{ "Language menu" }}</span>
-          <i class="fas fa-language fa-lg"></i>
-        </div>
-        {% endcomment %}
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[page.lang].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
@@ -40,3 +62,12 @@
     </div>
   </div>
 </div>
+
+{% comment %}
+<li>
+  <div class="language__toggle" type="button">
+    <span class="visually-hidden">{{ "Language menu" }}</span>
+    <i class="fas fa-language fa-lg"></i>
+  </div>
+</li>
+{% endcomment %}

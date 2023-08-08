@@ -64,7 +64,7 @@ atom_feed:
   hide                   : # true, false (default)
 
 # TODO
-search                   : true
+search                   : false
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:

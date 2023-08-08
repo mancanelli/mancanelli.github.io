@@ -14,6 +14,6 @@ main:
     #- title: "Blog"
     #  url: /it/blog
     - title: "Pubblicazioni"
-      url: /en/pubblicazioni
+      url: /it/pubblicazioni
     - title: "Insegnamento"
-      url: /en/insegnamento
+      url: /it/insegnamento
