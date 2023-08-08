@@ -67,7 +67,7 @@
   .site-nav {
     margin-left: 0;
 
-    @include breakpoint($small) {
+    @include breakpoint($x-small) {
       float: right;
     }
   }
@@ -98,7 +98,23 @@
 .switch {
   position: relative;
   display: inline-block;
-  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  @include breakpoint($x-small) {
+    top: 5px;
+  }
+
+  @include breakpoint($medium) {
+    top: 6px;
+  }
+
+  @include breakpoint($large) {
+    top: 7px;
+  }
 
   > span {
     position: absolute;
