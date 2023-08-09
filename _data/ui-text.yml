@@ -52,9 +52,6 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "no results"
   results_found              : "result(s) found"
   back_to_top                : "Back to top"
-  uni                        : "University"
-  bachelor                   : "Bachelor's degree"
-  taught                     : "Taught in "
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -377,9 +374,6 @@ it: &DEFAULT_IT
   search_algolia_no_results  : "nessun risultato"
   results_found              : "risultati"
   back_to_top                : "Vai su"
-  uni                        : "Università"
-  bachelor                   : "Laurea Triennale"
-  taught                     : "Erogato in "
 it-IT:
   <<: *DEFAULT_IT
 

@@ -3,6 +3,9 @@
 en: &DEFAULT_EN
   en                         : "English"
   it                         : "Italian"
+  uni                        : "University"
+  bachelor                   : "Bachelor's degree"
+  taught                     : "Taught in"
   inginfaut                  : "Computer and Control Engineering"
   diag_name                  : "Department of Computer, Control and Management Engineering"
   inf                        : "Computer Science"
@@ -23,6 +26,9 @@ en-AU:
 it: &DEFAULT_IT
   en                         : "Inglese"
   it                         : "Italiano"
+  uni                        : "Università"
+  bachelor                   : "Laurea Triennale"
+  taught                     : "Erogato in"
   inginfaut                  : "Ingegneria Informatica e Automatica"
   diag_name                  : "Dipartimento di Ingegneria Informatica, Automatica e Gestionale"
   inf                        : "Informatica"
@@ -31,8 +37,3 @@ it: &DEFAULT_IT
   introalg                   : "Introduzione agli Algoritmi"
 it-IT:
   <<: *DEFAULT_IT
-
-# Acronym
-# -----------------
-diag: "DIAG"
-di: "DI"
