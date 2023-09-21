@@ -13,4 +13,7 @@ translation:
 
 ## Percorso Accademico
 
-Sono in procinto di ottenere una laurea magistrale in Engineering in Computer Science all'Università La Sapienza. Ho ottenuto la laurea triennale in Ingegneria Informatica e Automatica nella stessa università con 110 e lode / 110 e ho partecipato al percorso di eccellenza per questo corso di laurea.
+Sto per iniziare il Dottorato Nazionale in Intelligenza Artificiale presso La Sapienza.
+Attualmente sto lavorando alla mia tesi di laurea magistrale su Situation Calculus e Linear Temporal Logic.
+
+Ho conseguito la laurea triennale in Ingegneria Informatica e Automatica con 110 e lode / 110 e ho ottenuto il percorso di eccellenza per questo corso di laurea.
