@@ -338,3 +338,6 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:title
+  awards:
+    output: false
+    permalink: /:collection/:title

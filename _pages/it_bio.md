@@ -1,8 +1,7 @@
 ---
-layout: custom-single
+layout: custom-awards
 title: Biografia
-toc: true
-toc_sticky: true
+toc: false
 permalink: /it/bio
 redirect_from:
   - /it/biography

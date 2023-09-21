@@ -1,8 +1,7 @@
 ---
-layout: custom-single
+layout: custom-awards
 title: Biography
-toc: true
-toc_sticky: true
+toc: false
 permalink: /en/bio
 redirect_from:
   - /en/biography
@@ -14,7 +13,10 @@ translation:
 
 ## Academic Path
 
-I am about to pursue a M.Sc. degree in Engineering in Computer Science at Sapienza University. I am working on my master's thesis on Situation Calculus and Linear Temporal Logic.
+I am about to begin the National PhD in Artificial Intelligence at Sapienza University.
+I'm currently working on my master’s thesis on Situation Calculus and Linear Temporal Logic.
 
 I received a B.Sc. degree in Ingegneria Informatica e Automatica (Computer and Control Engineering) from Sapienza with 110 cum laude / 110 and I completed the excellence program for this degree.
+
+## Awards
 

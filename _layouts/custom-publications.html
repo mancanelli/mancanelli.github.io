@@ -5,9 +5,9 @@ classes: wide
 
 {{ content }}
 
-{% assign preprints = site.publications | where_exp:"item", "item.type == 'preprint'" %}
-{% assign journal_papers = site.publications | where_exp:"item", "item.type == 'journal'" %}
-{% assign conference_papers = site.publications | where_exp:"item", "item.type == 'conference'" %}
+{% assign preprints = site.publications | where_exp: "item", "item.type == 'preprint'" | sort: "year" | reverse %}
+{% assign journal_papers = site.publications | where_exp: "item", "item.type == 'journal'" | sort: "year" | reverse %}
+{% assign conference_papers = site.publications | where_exp: "item", "item.type == 'conference'" | sort: "year" | reverse %}
 
 {% if preprints.size > 0 %}
 <h2>Preprints</h2>
@@ -15,7 +15,7 @@ classes: wide
 <div class="pubitem">
   <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
   <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
   <div class="publinks">
     {% if pub.doi %}
       [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]

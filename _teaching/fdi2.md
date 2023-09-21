@@ -6,7 +6,6 @@ tutors: Matteo Mancanelli, Dennis Rotondi
 cfu: 6
 ssd: ING-INF/05
 lang: it
-degree_level: bachelor
 degree_name: inginfaut
 department: Dipartimento di Ingegneria Informatica, Automatica e Gestionale (DIAG)
 faculty: Facoltà di Ingegneria dell'Informazione, Informatica e Statistica (I3S)
