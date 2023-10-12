@@ -20,8 +20,8 @@ classes: wide
     {% if pub.doi %}
       [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
     {% endif %}
-    {% if pub.arXiv %}
-      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% if pub.preprint %}
+      [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
     {% endif %}
     {% if pub.paper %}
       [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
@@ -40,13 +40,13 @@ classes: wide
 <div class="pubitem">
   <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
   <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
   <div class="publinks">
     {% if pub.doi %}
       [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
     {% endif %}
-    {% if pub.arXiv %}
-      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% if pub.preprint %}
+      [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
     {% endif %}
     {% if pub.paper %}
       [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
@@ -65,13 +65,13 @@ classes: wide
 <div class="pubitem">
   <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
   <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo"><em>{{ pub.publication }}</em>, {{ pub.year }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
   <div class="publinks">
     {% if pub.doi %}
       [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
     {% endif %}
-    {% if pub.arXiv %}
-      [<a href="{{ pub.arXiv }}" target="_blank" rel="noopener noreferrer">arXiv</a>]
+    {% if pub.preprint %}
+      [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
     {% endif %}
     {% if pub.paper %}
       [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]

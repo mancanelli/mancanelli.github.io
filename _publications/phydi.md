@@ -7,7 +7,9 @@ month: Sept.
 year: 2023
 type: conference
 doi: 
-arXiv: 
+preprint: https://arxiv.org/abs/2310.07612
+pdf: 
 paper: 
 code: https://github.com/ispamm/PHYDI
+award: 
 ---
