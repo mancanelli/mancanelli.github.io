@@ -13,7 +13,8 @@ translation:
 
 ## Academic Path
 
-I am about to begin the National PhD in Artificial Intelligence at Sapienza University.
-I'm currently working on my master’s thesis on Situation Calculus and Linear Temporal Logic.
+I am a first-year student in the National PhD programme in Artificial Intelligence at Sapienza University.
+My research interests range from Logic and Symbolic Reasoning to applications of Neural Networks.
+Now I'm currently working on Situation Calculus and Linear Temporal Logic.
 
-I received a B.Sc. degree in Ingegneria Informatica e Automatica (Computer and Control Engineering) from Sapienza with 110 cum laude / 110 and I completed the excellence program for this degree.
+I graduated with a M.Sc. degree in Engineering in Computer Science and a B.Sc. degree in Ingegneria Informatica e Automatica (Computer and Control Engineering) from La Sapienza, both with honors.

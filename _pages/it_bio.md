@@ -13,7 +13,8 @@ translation:
 
 ## Percorso Accademico
 
-Sto per iniziare il Dottorato Nazionale in Intelligenza Artificiale presso La Sapienza.
-Attualmente sto lavorando alla mia tesi di laurea magistrale su Situation Calculus e Linear Temporal Logic.
+Sono uno studente del primo anno del Dottorato Nazionale in Intelligenza Artificiale all'Università La Sapienza.
+I miei interessi di ricerca spaziano dalla Logica e il Symbolic Reasoning alle applicazioni delle Reti Neurali.
+Attualmente sto lavorando su Situation Calculus e Linear Temporal Logic.
 
-Ho conseguito la laurea triennale in Ingegneria Informatica e Automatica con 110 e lode / 110 e ho ottenuto il percorso di eccellenza per questo corso di laurea.
+Ho conseguito la laurea magistrale in Engineering in Computer Science e la laurea triennale in Ingegneria Informatica e Automatica a La Sapienza, entrambe con lode.

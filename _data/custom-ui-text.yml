@@ -15,7 +15,7 @@ en: &DEFAULT_EN
   introalg                   : "Introduction to Algorithms"
   top5                       : "Top 5% Outstanding Paper"
   mlsp23                     : "IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)"
-  awards                     : "Awards"
+  awards                     : "Honors and Awards"
   aaa: "aaa"
 en-US:
   <<: *DEFAULT_EN
