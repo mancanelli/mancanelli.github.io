@@ -134,7 +134,8 @@
   ul,
   ol,
   a,
-  tr {
+  tr,
+  label {
     page-break-inside: avoid;
   }
 

@@ -6,10 +6,20 @@ publication: IEEE International Workshop on Machine Learning for Signal Processi
 month: Sept.
 year: 2023
 type: conference
-doi: 
+doi: https://ieeexplore.ieee.org/document/10285926
 preprint: https://arxiv.org/abs/2310.07612
 pdf: 
 paper: 
+poster: PHYDI_poster.pdf
 code: https://github.com/ispamm/PHYDI
-award: 
+bibtex: "@inproceedings{10285926,<br/>
+  &emsp;author={Mancanelli, Matteo and Grassucci, Eleonora and Uncini, Aurelio and Comminiello, Danilo},<br/>
+  &emsp;booktitle={2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)},<br/>
+  &emsp;title={Phydi: Initializing Parameterized Hypercomplex Neural Networks As Identity Functions},<br/>
+  &emsp;year={2023},<br/>
+  &emsp;volume={},<br/>
+  &emsp;number={},<br/>
+  &emsp;pages={1-6},<br/>
+  &emsp;doi={10.1109/MLSP55844.2023.10285926}}"
+award: Top 5% Outstanding Paper
 ---

@@ -68,7 +68,7 @@ classes: wide
   <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
   <div class="publinks">
     {% if pub.doi %}
-      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
+      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
     {% endif %}
     {% if pub.preprint %}
       [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
@@ -76,9 +76,22 @@ classes: wide
     {% if pub.paper %}
       [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
     {% endif %}
+    {% if pub.poster %}
+      [<a href="{{ site.url }}assets/pdf/{{ pub.poster }}" target="_blank" rel="noopener noreferrer">poster</a>]
+    {% endif %}
     {% if pub.code %}
       [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">code</a>]
     {% endif %}
+    {% if pub.bibtex %}
+      [<a><label for=bt>bibtex</label></a>]
+    {% endif %}
+    {% if pub.award %}
+      <u>{{ pub.award }}</u>
+    {% endif %}
+    <input type='checkbox' id=bt>
+    <div>
+        {{ pub.bibtex }}
+    </div>
   </div>
 </div>
 {% endfor %}
