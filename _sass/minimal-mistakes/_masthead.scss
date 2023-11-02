@@ -136,7 +136,7 @@
     }
 
     @include breakpoint($medium-wide) {
-      top: 3px;
+      top: 3.5px;
     }
 
     @include breakpoint($large) {
@@ -144,7 +144,7 @@
     }
 
     @include breakpoint($x-large) {
-      top: 1px;
+      top: 2px;
     }
   }
 

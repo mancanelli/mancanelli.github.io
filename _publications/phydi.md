@@ -20,6 +20,7 @@ bibtex: "@inproceedings{10285926,<br/>
   &emsp;volume={},<br/>
   &emsp;number={},<br/>
   &emsp;pages={1-6},<br/>
-  &emsp;doi={10.1109/MLSP55844.2023.10285926}}"
+  &emsp;doi={10.1109/MLSP55844.2023.10285926}<br/>
+}"
 award: Top 5% Outstanding Paper
 ---

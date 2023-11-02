@@ -583,7 +583,9 @@ body {
   color: red;
 }
 
-/* --- */
+/*
+   Publinks
+   ========================================================================== */
 
 .publinks, .teachinglinks {
   a:link {
@@ -615,7 +617,6 @@ body {
     background-color: $lighter-gray;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    //white-space: pre-line;
   }
 
   label {
