@@ -19,16 +19,26 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .initial-content {
     @include breakpoint($large) {
-      font-size: 16px;
+      font-size: 17px;
     }
   
     @include breakpoint($x-large) {
-      font-size: 16px;
+      font-size: 17px;
+    }
+
+    .sidebar {
+      @include breakpoint($large) {
+        font-size: 18px;
+      }
+    
+      @include breakpoint($x-large) {
+        font-size: 19px;
+      }
     }
   }
 

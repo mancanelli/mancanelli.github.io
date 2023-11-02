@@ -129,6 +129,11 @@
   width: 36px;
   height: 36px;
 
+  @include breakpoint($medium) {
+    width: 48px;
+    height: 48px;
+  }
+
   @include breakpoint($large) {
     display: block;
     width: auto;
