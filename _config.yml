@@ -123,6 +123,15 @@ author:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
       url: "mailto:matteo.mancanelli@uniroma1.it"
+    - label: "ORCID"
+      icon: "ai ai-fw ai-orcid"
+      url: "https://orcid.org/0009-0004-9547-7115"
+    - label: "Scholar"
+      icon: "ai ai-fw ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=atdTiGoAAAAJ"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Matteo-Mancanelli"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mancanelli"
@@ -132,29 +141,15 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/m_mancanelli"
-    - label: "Google Scholar"
-      icon: "ai ai-fw ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=atdTiGoAAAAJ"
-    - label: "ORCID"
-      icon: "ai ai-fw ai-orcid"
-      url: "https://orcid.org/0009-0004-9547-7115"  
 
 # TODO
 #    - label: "Feed"
 #      icon: "fas fa-fw fa-rss-square"
 #      url: "https://mancanelli.github.io/feed.xml"
-#    
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook"
 #      url: "https://www.facebook.com/matteo.mancanelli/"
-
-
-#    - label: "ResearchGate"
-#      icon: "ai ai-researchgate-square ai-fw"
-#      url: "https://www.researchgate.net/profile/Matteo-Mancanelli"
-#    - label: "ORCID"
-#      icon: "fas fa-fw fa-rss-square"
-#      url: "https://orcid.org/0009-0004-9547-7115"
+#    dbpl, scopus, wos, w&b
 
 
 # Site Footer

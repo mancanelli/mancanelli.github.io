@@ -201,6 +201,18 @@
   z-index: 20;
   cursor: pointer;
 
+  .ai-orcid {
+    color: #A6CE39;
+  }
+
+  .ai-google-scholar {
+    color: #1E88E5;
+  }
+
+  .fa-researchgate {
+    color: #00CCBB;
+  }
+
   li:last-child {
     a {
       margin-bottom: 0;
