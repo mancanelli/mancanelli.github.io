@@ -11,10 +11,25 @@ translation:
   - it: bio
 ---
 
-## Academic Path
+## Current Activity
 
-I am a first-year student in the National PhD programme in Artificial Intelligence at Sapienza University.
-My research interests range from Logic and Symbolic Reasoning to applications of Neural Networks.
-Now I'm currently working on Situation Calculus and Linear Temporal Logic.
+<div class="editem">
+    <div class="edname"><strong>{{ site.data.custom-ui-text[page.lang].natphdai }}</strong></div>
+    <div class="edinfo">{{ site.data.custom-ui-text[page.lang].fair }} &#xB7; {{ site.data.custom-ui-text[page.lang].uni }} La Sapienza</div>
+</div>
 
-I graduated with a M.Sc. degree in Engineering in Computer Science and a B.Sc. degree in Ingegneria Informatica e Automatica (Computer and Control Engineering) from La Sapienza, both with honors.
+## {{ site.data.custom-ui-text[page.lang].education }}
+
+<div class="editem">
+    <div class="edname"><strong>{{ site.data.custom-ui-text[page.lang].engcomsci }}</strong></div>
+    <div class="edinfo">{{ site.data.custom-ui-text[page.lang].diag_name }} &#xB7; {{ site.data.custom-ui-text[page.lang].uni }} La Sapienza</div>
+    <div class="edinfo">Thesis: "Towards Self-Programmable Machines: Formalizing Data Structure Behaviors"</div>
+    <div class="edinfo">110 cum laude/110</div>
+</div>
+
+<div class="editem">
+    <div class="edname"><strong>{{ site.data.custom-ui-text[page.lang].inginfaut }}</strong></div>
+    <div class="edinfo">{{ site.data.custom-ui-text[page.lang].diag_name }} &#xB7; {{ site.data.custom-ui-text[page.lang].uni }} La Sapienza</div>
+    <div class="edinfo">Thesis: "Semantic Search App: Strutturazione, Correlazione e Ricerca Semantica dell'Informazione Multimediale"</div>
+    <div class="edinfo">110 cum laude/110</div>
+</div>
