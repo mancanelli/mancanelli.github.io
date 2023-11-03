@@ -26,7 +26,7 @@ baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "mancanelli/mancanelli.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Home Page" # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs             : false # true, false (default)
 words_per_minute         : 200
 
@@ -122,7 +122,7 @@ author:
   links:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
-      url: "mailto:matteomancanelli@gmail.com"
+      url: "mailto:matteo.mancanelli@uniroma1.it"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mancanelli"
@@ -132,6 +132,12 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/m_mancanelli"
+    - label: "Google Scholar"
+      icon: "ai ai-fw ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=atdTiGoAAAAJ"
+    - label: "ORCID"
+      icon: "ai ai-fw ai-orcid"
+      url: "https://orcid.org/0009-0004-9547-7115"  
 
 # TODO
 #    - label: "Feed"
@@ -143,23 +149,20 @@ author:
 #      url: "https://www.facebook.com/matteo.mancanelli/"
 
 
-#    - label: "Google Scholar"
-#      icon: "fas fa-fw fa-rss-square"
-#      url: "https://scholar.google.com/"
 #    - label: "ResearchGate"
-#      icon: "fas fa-fw fa-rss-square"
+#      icon: "ai ai-researchgate-square ai-fw"
 #      url: "https://www.researchgate.net/profile/Matteo-Mancanelli"
 #    - label: "ORCID"
 #      icon: "fas fa-fw fa-rss-square"
 #      url: "https://orcid.org/0009-0004-9547-7115"
-    
+
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
-      url: "mailto:matteomancanelli@gmail.com"
+      url: "mailto:matteo.mancanelli@uniroma1.it"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/m_mancanelli"
