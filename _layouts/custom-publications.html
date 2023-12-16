@@ -5,6 +5,44 @@ classes: wide
 
 {{ content }}
 
+{% assign pubByYear = site.publications | where_exp: "item", "item.hidden != true" | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
+{% for year in pubByYear %}
+<h2>{{ year.name }}</h2>
+{% for pub in year.items %}
+<div class="pubitem">
+  <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
+  <div class="publinks">
+    {% if pub.doi %}
+      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
+    {% endif %}
+    {% if pub.preprint %}
+      [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
+    {% endif %}
+    {% if pub.paper %}
+      [<a href="{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
+    {% endif %}
+    {% if pub.poster %}
+      [<a href="{{ site.url }}/assets/pdf/{{ pub.poster }}" target="_blank" rel="noopener noreferrer">poster</a>]
+    {% endif %}
+    {% if pub.code %}
+      [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">code</a>]
+    {% endif %}
+    {% if pub.bibtex %}
+      [<a><label for=bt>bibtex</label></a>]
+    {% endif %}
+    {% if pub.award %}
+      <u>{{ pub.award }}</u>
+    {% endif %}
+    <input type='checkbox' id=bt><div>{{ pub.bibtex }}</div>
+  </div>
+</div>
+{% endfor %}
+{% endfor %}
+
+
+{% comment %}
 {% assign preprints = site.publications | where_exp: "item", "item.type == 'preprint'" | sort: "year" | reverse %}
 {% assign journal_papers = site.publications | where_exp: "item", "item.type == 'journal'" | sort: "year" | reverse %}
 {% assign conference_papers = site.publications | where_exp: "item", "item.type == 'conference'" | sort: "year" | reverse %}
@@ -96,3 +134,4 @@ classes: wide
 </div>
 {% endfor %}
 {% endif %}
+{% endcomment %}

@@ -205,12 +205,18 @@
     color: #A6CE39;
   }
 
-  .ai-google-scholar {
+  .ai-google-scholar,
+  .ai-google-scholar-square {
     color: #1E88E5;
   }
 
+  .ai-researchgate,
   .fa-researchgate {
     color: #00CCBB;
+  }
+
+  .ai-scopus {
+    color: #FF8200;
   }
 
   li:last-child {

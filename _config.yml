@@ -116,19 +116,25 @@ analytics:
 author:
   name             : "Matteo Mancanelli"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "National PhD student in Artificial Intelligence at La Sapienza University"
+  bio              : "Student of the National PhD program in Artificial Intelligence at Sapienza University"
   location         : 
   email            : 
   links:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
-      url: "mailto:matteo.mancanelli@uniroma1.it"
+      url: "mailto:mancanelli@diag.uniroma1.it"
     - label: "ORCID"
       icon: "ai ai-fw ai-orcid"
       url: "https://orcid.org/0009-0004-9547-7115"
     - label: "Scholar"
-      icon: "ai ai-fw ai-google-scholar"
+      icon: "ai ai-fw ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=atdTiGoAAAAJ"
+    - label: "DBLP"
+      icon: "ai ai-fw ai-dblp"
+      url: "https://dblp.org/pid/358/9184.html"
+    - label: "Scopus"
+      icon: "ai ai-fw ai-scopus"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=58666548700"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Matteo-Mancanelli"

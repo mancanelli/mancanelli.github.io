@@ -23,7 +23,7 @@ Now I'm currently working on Situation Calculus and Linear Temporal Logic.
 I graduated with a M.Sc. degree in Engineering in Computer Science and a B.Sc. degree in Ingegneria Informatica 
 e Automatica (Computer and Control Engineering) from La Sapienza, both with honors.
 
-**E-mail:** matteo.mancanelli@uniroma1.it
+**E-mail:** mancanelli@diag.uniroma1.it
 
 {% comment %}
 ## Latest news
