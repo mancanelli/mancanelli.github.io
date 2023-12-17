@@ -8,8 +8,6 @@ year: 2023
 type: conference
 doi: https://ieeexplore.ieee.org/document/10285926
 preprint: https://arxiv.org/abs/2310.07612
-pdf: 
-paper: 
 poster: PHYDI_poster.pdf
 code: https://github.com/ispamm/PHYDI
 bibtex: "@inproceedings{mancanelli2023MLSP,<br/>

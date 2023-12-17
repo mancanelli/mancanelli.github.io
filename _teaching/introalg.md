@@ -7,9 +7,9 @@ cfu: 6
 ssd: INF/01
 lang: it
 degree_name: inf
-department: Dipartimento di Informatica (DI)
-faculty: Facoltà di Ingegneria dell'Informazione, Informatica e Statistica (I3S)
-university: La Sapienza
+department: di
+faculty: i3s
+university: sapuni
 year: 2023
 role: tutor
 website: 

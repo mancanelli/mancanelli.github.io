@@ -7,9 +7,9 @@ cfu: 6
 ssd: ING-INF/05
 lang: it
 degree_name: inginfaut
-department: Dipartimento di Ingegneria Informatica, Automatica e Gestionale (DIAG)
-faculty: Facoltà di Ingegneria dell'Informazione, Informatica e Statistica (I3S)
-university: La Sapienza
+department: diag
+faculty: i3s
+university: sapuni
 year: 2023
 role: tutor
 website: 

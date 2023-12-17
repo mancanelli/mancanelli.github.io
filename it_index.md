@@ -13,11 +13,10 @@ translation:
 
 ## Su di me
 
-Sono uno studente del primo anno del Dottorato Nazionale in Intelligenza Artificiale all'Università La Sapienza.
+Sono uno studente del primo anno del {{ site.data.custom-ui-text[page.lang].l-natphdai }} all'{{ site.data.custom-ui-text[page.lang].l-sapuni }}.
 I miei interessi di ricerca spaziano dalla Logica e il Symbolic Reasoning alle applicazioni delle Reti Neurali.
-Attualmente sto lavorando su Situation Calculus e Linear Temporal Logic.
+Attualmente sto lavorando su Situation Calculus e Linear Temporal Logic sotto la supervisione del {{ site.data.custom-ui-text[page.lang].l-gdg }}.
 
-Ho conseguito la laurea magistrale in Engineering in Computer Science e la laurea triennale in Ingegneria Informatica 
-e Automatica a La Sapienza, entrambe con lode.
+Ho conseguito la {{ site.data.custom-ui-text[page.lang].engcomsci }} e la {{ site.data.custom-ui-text[page.lang].inginfaut }} all'{{ site.data.custom-ui-text[page.lang].sapuni }}, entrambe con lode.
 
-**E-mail:** matteo.mancanelli@uniroma1.it
+**E-mail:** mancanelli@diag.uniroma1.it

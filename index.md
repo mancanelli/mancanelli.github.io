@@ -16,12 +16,11 @@ translation:
 
 ## About me
 
-I am a first-year student in the National PhD programme in Artificial Intelligence at Sapienza University.
+I am a first-year student of the {{ site.data.custom-ui-text[page.lang].l-natphdprog }} at {{ site.data.custom-ui-text[page.lang].l-sapuni }}.
 My research interests range from Logic and Symbolic Reasoning to applications of Neural Networks.
-Now I'm currently working on Situation Calculus and Linear Temporal Logic.
+Now I'm currently working on Situation Calculus and Linear Temporal Logic under the supervision of {{ site.data.custom-ui-text[page.lang].l-gdg }}.
 
-I graduated with a M.Sc. degree in Engineering in Computer Science and a B.Sc. degree in Ingegneria Informatica 
-e Automatica (Computer and Control Engineering) from La Sapienza, both with honors.
+I obtained a {{ site.data.custom-ui-text[page.lang].engcomsci }} and a {{ site.data.custom-ui-text[page.lang].inginfaut }} from {{ site.data.custom-ui-text[page.lang].sapuni }}, both with honors.
 
 **E-mail:** mancanelli@diag.uniroma1.it
 
