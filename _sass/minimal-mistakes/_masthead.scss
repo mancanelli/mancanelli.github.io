@@ -140,11 +140,11 @@
     }
 
     @include breakpoint($large) {
-      top: 2px;
+      top: 3px;
     }
 
     @include breakpoint($x-large) {
-      top: 2px;
+      top: 3px;
     }
   }
 
