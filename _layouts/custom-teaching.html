@@ -7,7 +7,9 @@ classes: wide
 
 {% assign teachingByYear = site.teaching | where_exp: "item", "item.hidden != true" | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
 {% for year in teachingByYear %}
-<h2>{{ year.name }}</h2>
+{% assign firstend = year.name | minus: 1 %}
+{% assign secondend = year.name | plus: 0 %}
+<h2>{{ firstend }} - {{ secondend }}</h2>
 {% for elem in year.items %}
 <div class="teachingitem">
   <div class="teachingname"><strong>{{ site.data.custom-ui-text[page.lang][elem.name] }}</strong></div>

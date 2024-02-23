@@ -584,8 +584,12 @@ body {
 }
 
 /*
-   Publinks
+   Links
    ========================================================================== */
+
+.mylinks {
+  text-decoration: none;
+}
 
 .publinks, .teachinglinks {
   a:link {
