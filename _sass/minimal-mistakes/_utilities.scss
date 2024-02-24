@@ -387,9 +387,6 @@ body:hover .visually-hidden button {
 }
 
 .greedy-nav__toggle {
-  margin-left: 1rem;
-  padding-left: 0;
-
   &:before {
     @supports (pointer-events: none) {
       content: '';

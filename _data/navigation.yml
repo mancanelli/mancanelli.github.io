@@ -1,19 +1,4 @@
+# main links
 main:
-  en:
-    - title: "Bio"
-      url: /en/bio
-    #- title: "Blog"
-    #  url: /en/blog
-    - title: "Publications"
-      url: /en/publications
-    - title: "Teaching"
-      url: /en/teaching
-  it:
-    - title: "Bio"
-      url: /it/bio
-    #- title: "Blog"
-    #  url: /it/blog
-    - title: "Pubblicazioni"
-      url: /it/pubblicazioni
-    - title: "Insegnamento"
-      url: /it/insegnamento
+  - title: "CV"
+    url: /curriculum
