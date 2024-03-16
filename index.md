@@ -11,9 +11,6 @@ translation:
   - it: /it
 ---
 
-# (website under construction)
-{: .under_construction }
-
 ## About me
 
 I am a first-year student of the {{ site.data.custom-ui-text[page.lang].l-natphdprog }} at {{ site.data.custom-ui-text[page.lang].l-sapuni }}.

@@ -8,9 +8,6 @@ translation:
   - en: /
 ---
 
-# (sito in costruzione)
-{: .under_construction }
-
 ## Su di me
 
 Sono uno studente del primo anno del {{ site.data.custom-ui-text[page.lang].l-natphdai }} all'{{ site.data.custom-ui-text[page.lang].l-sapuni }}.
