@@ -15,7 +15,7 @@ translation:
 
 I am a first-year student of the {{ site.data.custom-ui-text[page.lang].l-natphdprog }} at {{ site.data.custom-ui-text[page.lang].l-sapuni }}.
 My research interests range from Logic and Symbolic Reasoning to applications of Neural Networks.
-Now I'm currently working on Situation Calculus and Linear Temporal Logic under the supervision of {{ site.data.custom-ui-text[page.lang].l-gdg }}.
+I'm currently working on Situation Calculus and Linear Temporal Logic under the supervision of {{ site.data.custom-ui-text[page.lang].l-gdg }}.
 
 I obtained a {{ site.data.custom-ui-text[page.lang].engcomsci }} and a {{ site.data.custom-ui-text[page.lang].inginfaut }} from {{ site.data.custom-ui-text[page.lang].sapuni }}, both with honors.
 
