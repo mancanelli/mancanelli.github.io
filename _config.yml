@@ -126,9 +126,12 @@ author:
     - label: "ORCID"
       icon: "ai ai-fw ai-orcid"
       url: "https://orcid.org/0009-0004-9547-7115"
-    - label: "Scholar"
+    - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=atdTiGoAAAAJ"
+    - label: "Semantic Scholar"
+      icon: "ai ai-fw ai-semantic-scholar"
+      url: "https://www.semanticscholar.org/author/Matteo-Mancanelli/2257037884"
     - label: "DBLP"
       icon: "ai ai-fw ai-dblp"
       url: "https://dblp.org/pid/358/9184.html"
@@ -344,6 +347,6 @@ collections:
   teaching:
     output: false
     permalink: /:collection/:title
-  awards:
+  acks:
     output: false
     permalink: /:collection/:title

@@ -8,7 +8,7 @@ translation:
   - en: /
 ---
 
-## Su di me
+## Chi sono
 
 Sono uno studente del primo anno del {{ site.data.custom-ui-text[page.lang].l-natphdai }} all'{{ site.data.custom-ui-text[page.lang].l-sapuni }}.
 I miei interessi di ricerca spaziano dalla Logica e il Symbolic Reasoning alle applicazioni delle Reti Neurali.

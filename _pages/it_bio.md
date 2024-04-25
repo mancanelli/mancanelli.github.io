@@ -1,5 +1,5 @@
 ---
-layout: custom-awards
+layout: custom-acks
 title: Biografia
 toc: false
 permalink: /it/bio

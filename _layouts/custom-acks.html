@@ -1,0 +1,16 @@
+---
+layout: custom-single
+classes: wide
+---
+
+{{ content }}
+
+{% assign acks = site.acks | sort: "year" | reverse %}
+<h2>{{ site.data.custom-ui-text[page.lang].acks }}</h2>
+{% for elem in acks %}
+<div class="ackitem">
+    <div class="ackname"><strong>{{ site.data.custom-ui-text[page.lang][elem.name] }}</strong></div>
+    <div class="ackinfo">{{ site.data.custom-ui-text[page.lang][elem.info] }}</div>
+    <div class="ackyear">{{ elem.year }}</div>
+</div>
+{% endfor %}
