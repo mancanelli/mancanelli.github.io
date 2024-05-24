@@ -357,6 +357,7 @@ input[type="submit"],
   flex-direction: row;
 
   .pubbox {
+    position: relative;
     display: inline-block;
     margin-right: 0.3em;
 
@@ -369,7 +370,6 @@ input[type="submit"],
 
     .conference {
       background: #196ca3;
-
     }
   }
 
@@ -378,10 +378,35 @@ input[type="submit"],
   }
 }
 
+.pubbox .conference_tooltip,
+.pubbox .journal_tooltip {
+  font-size: $type-size-6;
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  white-space: nowrap;
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.pubbox:hover .conference_tooltip,
+.pubbox:hover .journal_tooltip {
+  visibility: visible;
+  transition-delay: 0.3s;
+}
+
 .pubspec {
   margin-left: 0.4em;
 }
 
 span.nobr {
   white-space: nowrap;
+}
+
+.pubitem, .teachingitem, .ackitem, .editem {
+  margin: 0em 0em 1em
 }

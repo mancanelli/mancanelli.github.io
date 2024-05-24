@@ -15,10 +15,14 @@ classes: wide
 <div class="pubitem">
   <div class="pubtypeitem">
     <div class="pubtype">
-      <span class="pubbox"><img class="{{ pub.type }}" alt="" src="/assets/images/little_box_15.png"/></span>
+      <div class="pubbox">
+        <img class="{{ pub.type }}" alt="" src="/assets/images/little_box_15.png"/>
+        {% if pub.type == "conference" %}<div class="conference_tooltip">Conference and Workshop Papers</div>{% endif %}
+        {% if pub.type == "journal" %}<div class="journal_tooltip">Journal Articles</div>{% endif %}
+      </div>
       {% if pub.type == "conference" %}{% assign counter = c_counter | minus: 1 | prepend: 'c' %}{% endif %}
       {% if pub.type == "journal" %}{% assign counter = j_counter | minus: 1 | prepend: 'j' %}{% endif %}
-      <span class="pubnumber">[{{ counter }}]</span>
+      <div class="pubnumber">[{{ counter }}]</div>
     </div>
   </div>
   <div class="pubspec">
