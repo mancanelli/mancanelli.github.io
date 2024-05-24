@@ -343,60 +343,33 @@ input[type="submit"],
    CUSTOM ELEMENTS
    ========================================================================== */
 
-/*
 .pubitem {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.pubtypeitem, .pubspec {
+  display: inline-block;
 }
 
 .pubtype {
-  padding-right: 0.5em;
-  display: inline-block;
-  white-space: nowrap;
-
-  .pubbox, .pubnumber {
-    display: inline-block;
-    vertical-align: middle;
-  }
+  display: flex;
+  flex-direction: row;
 
   .pubbox {
+    display: inline-block;
+    margin-right: 0.3em;
+
     .conference {
-        background: #196ca3;
+      background: #196ca3;
     }
   }
 
   .pubnumber {
-    padding-left: 0.1em;
+    display: inline-block;
   }
 }
-*/
 
-.pubitem {
-  display: flex;
-  flex-direction: column;
-}
-
-.pubheader {
-  display: flex;
-  align-items: center;
-}
-
-.pubtype {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.pubtype .pubbox, .pubtype .pubnumber {
-  display: inline-block;
-  margin-right: 5px; /* Spazio tra i due span */
-}
-
-.pubtitle {
-  display: inline-block;
-}
-
-.pubbox {
-  .conference {
-      background: #196ca3;
-  }
+.pubspec {
+  margin-left: 0.4em;
 }

@@ -13,11 +13,13 @@ classes: wide
 <h2>{{ year.name }}</h2>
 {% for pub in year.items %}
 <div class="pubitem">
-  <div class="pubtype">
-    <span class="pubbox"><img class="{{ pub.type }}" alt="" src="/assets/images/little_box_15.png"/></span>
-    {% if pub.type == "conference" %}{% assign counter = c_counter | minus: 1 | prepend: 'c' %}{% endif %}
-    {% if pub.type == "journal" %}{% assign counter = j_counter | minus: 1 | prepend: 'j' %}{% endif %}
-    <span class="pubnumber">[{{ counter }}]</span>
+  <div class="pubtypeitem">
+    <div class="pubtype">
+      <span class="pubbox"><img class="{{ pub.type }}" alt="" src="/assets/images/little_box_15.png"/></span>
+      {% if pub.type == "conference" %}{% assign counter = c_counter | minus: 1 | prepend: 'c' %}{% endif %}
+      {% if pub.type == "journal" %}{% assign counter = j_counter | minus: 1 | prepend: 'j' %}{% endif %}
+      <span class="pubnumber">[{{ counter }}]</span>
+    </div>
   </div>
   <div class="pubspec">
     <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
