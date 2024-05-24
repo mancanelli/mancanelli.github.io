@@ -421,6 +421,10 @@ span.nobr {
   outline: none;
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 // Language switch button
 
 .switch {
