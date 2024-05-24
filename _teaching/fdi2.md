@@ -11,7 +11,7 @@ department: diag
 faculty: i3s
 university: sapuni
 year: 2023
-role: tutor
+role: ta
 website: 
 code: https://github.com/mancanelli/Fondamenti-di-Informatica-2
 ---

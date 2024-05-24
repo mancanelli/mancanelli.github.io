@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 'PHYDI: Initializing Parameterized Hypercomplex Neural Networks as Identity Functions'
-authors: Matteo Mancanelli, Eleonora Grassucci, Aurelio Uncini, Danilo Comminiello
-publication: IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)
+title: 'PHYDI: Initializing Parameterized Hypercomplex <span class="nobr">Neural Networks</span> as Identity Functions'
+authors: <span class="nobr">Matteo Mancanelli</span>, <span class="nobr">Eleonora Grassucci</span>, <span class="nobr">Aurelio Uncini</span>, <span class="nobr">Danilo Comminiello</span>
+publication: IEEE International Workshop on Machine Learning for <span class="nobr">Signal Processing</span> (MLSP 2023)
 month: Sept.
 year: 2023
 type: conference
@@ -19,5 +19,5 @@ bibtex: "@inproceedings{mancanelli2023MLSP,<br/>
   &emsp;pages={1--6},<br/>
   &emsp;doi={10.1109/MLSP55844.2023.10285926}<br/>
 }"
-ack: Top 5% Outstanding Paper
+ack: <span class="nobr">Top 5% Outstanding Paper</span>
 ---

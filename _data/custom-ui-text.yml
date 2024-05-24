@@ -27,7 +27,8 @@ en: &DEFAULT_EN
   a-diag                     : "<a href='https://www.diag.uniroma1.it/en' target='_blank' class='mylinks'>Department of Computer, Control and Management Engineering</a>"
   l-gdg                      : "[Prof. Giuseppe De Giacomo](https://www.diag.uniroma1.it/degiacom/){:target='_blank'}{:class='mylinks'}"
   mlsp23                     : "IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)"
-  top5                       : "Top 5% Outstanding Paper"
+  top5                       : "<span class='nobr'>Top 5% Outstanding Paper</span>"
+  ta                         : "Teaching Assistant"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -67,5 +68,6 @@ it: &DEFAULT_IT
   l-gdg                      : "[Prof. Giuseppe De Giacomo](https://www.diag.uniroma1.it/degiacom/){:target='_blank'}{:class='mylinks'}"
   mlsp23                     : "IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)"
   top5                       : "Top 5% Outstanding Paper"
+  ta                         : "Tutor"
 it-IT:
   <<: *DEFAULT_IT

@@ -11,7 +11,7 @@ department: di
 faculty: i3s
 university: sapuni
 year: 2023
-role: tutor
+role: ta
 website: 
 code: 
 ---

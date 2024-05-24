@@ -13,7 +13,7 @@ classes: wide
 {% for elem in year.items %}
 <div class="teachingitem">
   <div class="teachingname"><strong>{{ site.data.custom-ui-text[page.lang][elem.name] }}</strong></div>
-  <div class="teachinginfo">{% if elem.role %}{{ elem.role | capitalize }}{% endif %} &#xB7; {{ elem.cfu }} CFU &#xB7; 
+  <div class="teachinginfo">{% if elem.role %}{{ site.data.custom-ui-text[page.lang][elem.role] }}{% endif %} &#xB7; {{ elem.cfu }} CFU &#xB7; 
                             {{ site.data.custom-ui-text[page.lang].taught }} {{ site.data.custom-ui-text[page.lang][elem.lang] | downcase }}
   </div>
   <div class="teachingdegree">{% if elem.degree_level %}{{ site.data.custom-ui-text[page.lang][elem.degree_level] }} in {% endif %}
