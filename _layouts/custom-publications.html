@@ -5,38 +5,53 @@ classes: wide
 
 {{ content }}
 
-{% assign pubByYear = site.publications | where_exp: "item", "item.hidden != true" | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
+{% assign c_counter = 2 %}
+{% assign j_counter = 0 %}
+
+{% assign pubByYear = site.publications | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
 {% for year in pubByYear %}
 <h2>{{ year.name }}</h2>
 {% for pub in year.items %}
 <div class="pubitem">
-  <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
-  <div class="publinks">
-    {% if pub.doi %}
-      [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
-    {% endif %}
-    {% if pub.preprint %}
-      [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
-    {% endif %}
-    {% if pub.poster %}
-      [<a href="{{ site.url }}/assets/pdf/{{ pub.poster }}" target="_blank" rel="noopener noreferrer">poster</a>]
-    {% endif %}
-    {% if pub.code %}
-      [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">{{ site.data.custom-ui-text[page.lang].code }}</a>]
-    {% endif %}
-    {% if pub.bibtex %}
-      [<a><label for=bt>bibtex</label></a>]
-    {% endif %}
-    {% if pub.ack %}
-      <u>{{ pub.ack }}</u>
-    {% endif %}
-    <input type='checkbox' id=bt><div>{{ pub.bibtex }}</div>
+  <div class="pubtype">
+    <span class="pubbox"><img class="{{ pub.type }}" alt="" src="/assets/images/little_box_15.png"/></span>
+    {% if pub.type == "conference" %}{% assign counter = c_counter | minus: 1 | prepend: 'c' %}{% endif %}
+    {% if pub.type == "journal" %}{% assign counter = j_counter | minus: 1 | prepend: 'j' %}{% endif %}
+    <span class="pubnumber">[{{ counter }}]</span>
+  </div>
+  <div class="pubspec">
+    <div class="pubtitle"><strong>{{ pub.title }}</strong></div>
+    <div class="pubauthors">{{ pub.authors }}</div>
+    <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
+    <div class="publinks">
+      {% if pub.doi %}
+        [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
+      {% endif %}
+      {% if pub.preprint %}
+        [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
+      {% endif %}
+      {% if pub.poster %}
+        [<a href="{{ site.url }}/assets/pdf/{{ pub.poster }}" target="_blank" rel="noopener noreferrer">poster</a>]
+      {% endif %}
+      {% if pub.code %}
+        [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">{{ site.data.custom-ui-text[page.lang].code }}</a>]
+      {% endif %}
+      {% if pub.bibtex %}
+        [<a><label for=bt>bibtex</label></a>]
+      {% endif %}
+      {% if pub.ack %}
+        <u>{{ pub.ack }}</u>
+      {% endif %}
+      <input type='checkbox' id=bt><div>{{ pub.bibtex }}</div>
+    </div>
   </div>
 </div>
 {% endfor %}
 {% endfor %}
+
+
+
+
 
 
 {% comment %}

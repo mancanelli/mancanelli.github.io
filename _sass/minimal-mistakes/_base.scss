@@ -338,3 +338,65 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* ==========================================================================
+   CUSTOM ELEMENTS
+   ========================================================================== */
+
+/*
+.pubitem {
+  display: inline-flex;
+}
+
+.pubtype {
+  padding-right: 0.5em;
+  display: inline-block;
+  white-space: nowrap;
+
+  .pubbox, .pubnumber {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .pubbox {
+    .conference {
+        background: #196ca3;
+    }
+  }
+
+  .pubnumber {
+    padding-left: 0.1em;
+  }
+}
+*/
+
+.pubitem {
+  display: flex;
+  flex-direction: column;
+}
+
+.pubheader {
+  display: flex;
+  align-items: center;
+}
+
+.pubtype {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.pubtype .pubbox, .pubtype .pubnumber {
+  display: inline-block;
+  margin-right: 5px; /* Spazio tra i due span */
+}
+
+.pubtitle {
+  display: inline-block;
+}
+
+.pubbox {
+  .conference {
+      background: #196ca3;
+  }
+}
