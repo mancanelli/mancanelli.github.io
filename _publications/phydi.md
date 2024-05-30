@@ -10,6 +10,8 @@ doi: https://ieeexplore.ieee.org/document/10285926
 preprint: https://arxiv.org/abs/2310.07612
 poster: PHYDI_poster.pdf
 code: https://github.com/ispamm/PHYDI
+abstract: "Neural models based on hypercomplex algebra systems are growing and prolificating for a plethora of applications, ranging from computer 
+  vision to natural language processing. Hand in hand with their adoption, parameterized hypercomplex neural networks (PHNNs) are growing in size and no techniques have been adopted so far to control their convergence at a large scale. In this paper, we study PHNNs convergence and propose parameterized hypercomplex identity initialization (PHYDI), a method to improve their convergence at different scales, leading to more robust performance when the number of layers scales up, while also reaching the same performance with fewer iterations. We show the effectiveness of this approach in different benchmarks and with common PHNNs with ResNets- and Transformer-based architecture."
 bibtex: "@inproceedings{mancanelli2023MLSP,<br/>
   &emsp;author={Mancanelli, Matteo and Grassucci, Eleonora and Uncini, Aurelio and Comminiello, Danilo},<br/>
   &emsp;booktitle={2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)},<br/>
@@ -18,6 +20,6 @@ bibtex: "@inproceedings{mancanelli2023MLSP,<br/>
   &emsp;organization={IEEE},<br/>
   &emsp;pages={1--6},<br/>
   &emsp;doi={10.1109/MLSP55844.2023.10285926}<br/>
-}"
+&nbsp;}"
 ack: <span class="nobr">Top 5% Outstanding Paper</span>
 ---

@@ -30,6 +30,9 @@ classes: wide
     <div class="pubauthors">{{ pub.authors }}</div>
     <div class="pubinfo"><em>{{ pub.publication }}</em>, {% if pub.month %}{{ pub.month }}{% endif %} {{ pub.year }}</div>
     <div class="publinks">
+      {% if pub.abstract %}
+        [<a><label for=abstract>abstract</label></a>]
+      {% endif %}
       {% if pub.doi %}
         [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
       {% endif %}
@@ -43,12 +46,13 @@ classes: wide
         [<a href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">{{ site.data.custom-ui-text[page.lang].code }}</a>]
       {% endif %}
       {% if pub.bibtex %}
-        [<a><label for=bt>bibtex</label></a>]
+        [<a><label for=bibtex>bibtex</label></a>]
       {% endif %}
       {% if pub.ack %}
         <u>{{ pub.ack }}</u>
       {% endif %}
-      <input type='checkbox' id=bt><div>{{ pub.bibtex }}</div>
+      <input type='checkbox' id=abstract><div style="padding: 0.5em;">{{ pub.abstract }}</div>
+      <input type='checkbox' id=bibtex><div style="padding: 0.5em;">{{ pub.bibtex }}</div>
     </div>
   </div>
 </div>
