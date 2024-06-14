@@ -3,7 +3,7 @@ layout: default
 name: asd_fdi2
 teachers: Luca Becchetti, Paolo Russo
 tutors: Matteo Mancanelli, Dennis Rotondi
-cfu: 6
+credits: 6
 ssd: ING-INF/05
 lang: it
 degree_name: inginfaut

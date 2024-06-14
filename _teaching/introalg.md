@@ -3,7 +3,7 @@ layout: default
 name: introalg
 teachers: Tiziana Calamoneri, Angelo Monti
 tutors: Giulio Attenni, Matteo Mancanelli, Vincenzo Imperati, Nicholas Tiveron
-cfu: 6
+credits: 6
 ssd: INF/01
 lang: it
 degree_name: inf

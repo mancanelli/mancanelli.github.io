@@ -29,6 +29,7 @@ en: &DEFAULT_EN
   mlsp23                     : "IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)"
   top5                       : "<span class='nobr'>Top 5% Outstanding Paper</span>"
   ta                         : "Teaching Assistant"
+  credits                    : "ECTS"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -69,5 +70,6 @@ it: &DEFAULT_IT
   mlsp23                     : "IEEE International Workshop on Machine Learning for Signal Processing (MLSP 2023)"
   top5                       : "Top 5% Outstanding Paper"
   ta                         : "Tutor"
+  credits                    : "CFU"
 it-IT:
   <<: *DEFAULT_IT
