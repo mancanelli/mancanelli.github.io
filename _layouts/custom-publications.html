@@ -34,10 +34,13 @@ classes: wide
         [<a><label for=abstract>abstract</label></a>]
       {% endif %}
       {% if pub.doi %}
-        [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">paper</a>]
+        [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
       {% endif %}
       {% if pub.preprint %}
         [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
+      {% endif %}
+      {% if pub.paper %}
+        [<a href="{{ site.url }}/assets/pdf/{{ pub.paper }}" target="_blank" rel="noopener noreferrer">paper</a>]
       {% endif %}
       {% if pub.poster %}
         [<a href="{{ site.url }}/assets/pdf/{{ pub.poster }}" target="_blank" rel="noopener noreferrer">poster</a>]
