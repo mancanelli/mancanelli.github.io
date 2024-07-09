@@ -407,7 +407,7 @@ span.nobr {
   white-space: nowrap;
 }
 
-.pubitem, .teachingitem, .ackitem, .editem {
+.pubitem, .teachingitem, .ackitem, .editem, .myitem {
   margin: 0em 0em 1em
 }
 
@@ -423,6 +423,63 @@ span.nobr {
 
 a {
   -webkit-tap-highlight-color: transparent;
+}
+
+// Links
+
+.mylinks {
+  text-decoration: none;
+}
+
+.publinks, .teachinglinks, .myitemlinks {
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+
+  input {
+    display: none;
+  }
+
+  input + div { 
+    display: none;
+  }
+
+  input:checked + div { 
+    display: block;
+    background-color: $lighter-gray;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  label {
+    color: $link-color;
+    display: inline;
+
+    &:focus {
+      @extend %tab-focus;
+    }
+  
+    &:visited {
+      color: $link-color-visited;
+    }
+  
+    &:hover {
+      color: $link-color-hover;
+      outline: 0;
+    }
+  }
 }
 
 // Language switch button

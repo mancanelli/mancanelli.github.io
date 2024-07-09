@@ -21,7 +21,7 @@ classes: wide
   </div>
   <div class="teachinglinks">
     {% if elem.website %}
-      [<a href="{{ elem.website }}" target="_blank" rel="noopener noreferrer">website</a>]
+      [<a href="{{ elem.website }}" target="_blank" rel="noopener noreferrer">{{ site.data.custom-ui-text[page.lang].website }}</a>]
     {% endif %}
     {% if elem.code %}
       [<a href="{{ elem.code }}" target="_blank" rel="noopener noreferrer">{{ site.data.custom-ui-text[page.lang].code }}</a>]

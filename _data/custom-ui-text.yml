@@ -30,6 +30,7 @@ en: &DEFAULT_EN
   top5                       : "<span class='nobr'>Top 5% Outstanding Paper</span>"
   ta                         : "Teaching Assistant"
   credits                    : "ECTS"
+  website                    : "website"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -71,5 +72,6 @@ it: &DEFAULT_IT
   top5                       : "Top 5% Outstanding Paper"
   ta                         : "Tutor"
   credits                    : "CFU"
+  website                    : "pagina web"
 it-IT:
   <<: *DEFAULT_IT
