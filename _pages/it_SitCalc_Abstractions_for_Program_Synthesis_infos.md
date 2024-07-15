@@ -14,7 +14,7 @@ Questa pagina contiene tutte le informazioni su "Situation Calculus Temporally L
 <h2>Link</h2>
 
 <div class="myitem"> 
-    <div>Qui trovi tutti i link utili: </div>
+    <div>Qui trovi alcuni link utili: </div>
     <div class="myitemlinks"> 
         [<a><label for=abstract>abstract</label></a>]
         [<a href="{{ site.url }}/assets/pdf/SC_Abstractions_for_Program_Synthesis_abstract.pdf" target="_blank" rel="noopener noreferrer">short paper</a>]
@@ -27,7 +27,7 @@ Questa pagina contiene tutte le informazioni su "Situation Calculus Temporally L
     </div>
 </div>
 
-<h2>Contacts</h2>
+<h2>Contatti</h2>
 <div class="myitem">
     <div class="myitemname"><strong>Giuseppe De Giacomo</strong></div>
     <div class="myiteminfo">University of Oxford, Oxford, UK</div>

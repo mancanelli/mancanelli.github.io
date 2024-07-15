@@ -10,12 +10,12 @@ translation:
   - it: SitCalc-Abstractions-for-Program-Synthesis
 ---
 
-This page containts all relevant infos about "Situation Calculus Temporally Lifted Abstractions for Program Synthesis", by Giuseppe De Giacomo, Yves Lespérance and Matteo Mancanelli. 
+This page contains all relevant information about "Situation Calculus Temporally Lifted Abstractions for Program Synthesis," by Giuseppe De Giacomo, Yves Lespérance and Matteo Mancanelli.
 
 <h2>Links</h2>
 
 <div class="myitem"> 
-    <div>Here you can find useful links: </div>
+    <div>Here you can find some useful links: </div>
     <div class="myitemlinks"> 
         [<a><label for=abstract>abstract</label></a>]
         [<a href="{{ site.url }}/assets/pdf/SC_Abstractions_for_Program_Synthesis_abstract.pdf" target="_blank" rel="noopener noreferrer">short paper</a>]

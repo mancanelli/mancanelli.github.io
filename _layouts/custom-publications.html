@@ -36,7 +36,7 @@ classes: wide
       {% if pub.doi %}
         [<a href="{{ pub.doi }}" target="_blank" rel="noopener noreferrer">doi</a>]
       {% endif %}
-      {% if pub.preprint %}
+      {% if pub.preprint and pub.paper == false %}
         [<a href="{{ pub.preprint }}" target="_blank" rel="noopener noreferrer">preprint</a>]
       {% endif %}
       {% if pub.paper %}

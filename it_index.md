@@ -11,8 +11,8 @@ translation:
 ## Chi sono
 
 Sono uno studente del primo anno del {{ site.data.custom-ui-text[page.lang].l-natphdai }} all'{{ site.data.custom-ui-text[page.lang].l-sapuni }}.
-I miei interessi di ricerca spaziano dalla Logica e il Symbolic Reasoning alle applicazioni delle Reti Neurali.
-Attualmente sto lavorando su Situation Calculus e Linear Temporal Logic sotto la supervisione del {{ site.data.custom-ui-text[page.lang].l-gdg }}.
+I miei interessi di ricerca sono principalmente Logica e Symbolic Reasoning.
+Attualmente sto lavorando su Situation Calculus e Linear Temporal Logic sotto la supervisione di {{ site.data.custom-ui-text[page.lang].l-gdg }} e la co-supervisione di {{ site.data.custom-ui-text[page.lang].l-yl }}.
 
 Ho conseguito la {{ site.data.custom-ui-text[page.lang].engcomsci }} e la {{ site.data.custom-ui-text[page.lang].inginfaut }} all'{{ site.data.custom-ui-text[page.lang].sapuni }}, entrambe con lode.
 

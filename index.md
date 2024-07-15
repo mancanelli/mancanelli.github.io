@@ -13,11 +13,11 @@ translation:
 
 ## About me
 
-I am a first-year student of the {{ site.data.custom-ui-text[page.lang].l-natphdprog }} at {{ site.data.custom-ui-text[page.lang].l-sapuni }}.
-My research interests range from Logic and Symbolic Reasoning to applications of Neural Networks.
-I'm currently working on Situation Calculus and Linear Temporal Logic under the supervision of {{ site.data.custom-ui-text[page.lang].l-gdg }}.
+I am a first-year student in the {{ site.data.custom-ui-text[page.lang].l-natphdprog }} at {{ site.data.custom-ui-text[page.lang].l-sapuni }}.
+My research interests are mainly Logic and Symbolic Reasoning. 
+I am currently working on Situation Calculus and Linear Temporal Logic under the supervision of {{ site.data.custom-ui-text[page.lang].l-gdg }} and co-supervision of {{ site.data.custom-ui-text[page.lang].l-yl }}.
 
-I obtained a {{ site.data.custom-ui-text[page.lang].engcomsci }} and a {{ site.data.custom-ui-text[page.lang].inginfaut }} from {{ site.data.custom-ui-text[page.lang].sapuni }}, both with honors.
+I received my {{ site.data.custom-ui-text[page.lang].engcomsci }} and my {{ site.data.custom-ui-text[page.lang].inginfaut }} from {{ site.data.custom-ui-text[page.lang].sapuni }}, both with honors.
 
 {% comment %} **Room:** B213 (DIAG) <br/> {% endcomment %}
 **E-mail:** mancanelli@diag.uniroma1.it
