@@ -8,7 +8,7 @@ classes: wide
 {% assign c_counter = 3 %}
 {% assign j_counter = 0 %}
 
-{% assign pubByYear = site.publications | group_by_exp: 'item', 'item.year' | sort: "year" %}
+{% assign pubByYear = site.publications | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
 {% for year in pubByYear %}
 <h2>{{ year.name }}</h2>
 {% for pub in year.items %}
