@@ -5,7 +5,7 @@ classes: wide
 
 {{ content }}
 
-{% assign teachingByYear = site.teaching | where_exp: "item", "item.hidden != true" | group_by_exp: 'item', 'item.year' | sort: "year" | reverse %}
+{% assign teachingByYear = site.teaching | where_exp: "item", "item.hidden != true" | sort: "year" | reverse | group_by_exp: 'item', 'item.year' %}
 {% for year in teachingByYear %}
 {% assign firstend = year.name | minus: 1 %}
 {% assign secondend = year.name | plus: 0 %}
