@@ -1,17 +1,17 @@
 ---
 layout: default
-title: 'Situation Calculus <span class="nobr">Temporally Lifted Abstractions</span> for <span class="nobr">Program Synthesis</span> <span class="nobr">(Extended Abstract)</span>'
+title: 'Situation Calculus <span class="nobr">Temporally Lifted Abstractions</span> for <span class="nobr">Generalized Planning</span>'
 authors: <span class="nobr">Giuseppe De Giacomo</span>, <span class="nobr">Yves Lesp&eacute;rance</span>, <span class="nobr">Matteo Mancanelli</span>
-publication: Workshop on Highlights of Reasoning about Actions, Planning and Reactive Synthesis
-month: Oct.
-year: 2024
+publication: To appear in Proc. of the 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025), Philadelphia, PA, USA.
+month: 
+year: 2025
 type: conference
-paper: SC_Abstractions_ExAb.pdf
+paper: SC_Abstractions.pdf
 doi: 
 preprint: 
 poster: 
 code: 
-abstract: "We address a program synthesis task where one wants to provide a description of the behavior of common data structures and automatically synthesize a concrete program from a proper abstraction. Our framework is based on nondeterministic situation calculus, extended with LTL trace constraints. We propose a notion of temporally lifted abstraction to address the scenario in which we have a single high-level action theory/model with incomplete information and nondeterministic actions and a concrete action theory with several models and complete information. LTL formulas are used to specify the temporally extended goals as well as assumed trace constraints. We show that if the agent has a strategy to achieve a goal under trace constraints at the high level, then there is a refinement of the strategy to achieve the refinement of the goal at the low level."
+abstract: "We present a new formal framework for generalized planning (GP) based on the situation calculus extended with LTL constraints. The GP problem is specified by a first-order basic action theory whose models are the problem instances. This low-level theory is then abstracted into a high-level propositional nondeterministic basic action theory with a single model. A refinement mapping relates the two theories. LTL formulas are used to specify the temporally extended goals as well as assumed trace constraints. If all LTL trace constraints hold at the low level and the high-level model can simulate all the low-level models with respect to the mapping, we say that we have a temporally lifted abstraction. We prove that if we have such an abstraction and the agent has a strategy to achieve a LTL goal under some trace constraints at the abstract level, then there exists a refinement of the strategy to achieve the refinement of the goal at the concrete level. We use LTL synthesis to generate the strategy at the abstract level. We illustrate our approach by synthesizing a program that solves a data structure manipulation problem."
 bibtex: 
 ack: 
 ---
